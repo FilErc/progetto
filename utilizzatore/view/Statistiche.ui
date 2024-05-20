@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>statistiche</class>
+ <widget class="QWidget" name="statistiche">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>547</width>
+    <height>401</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Statistiche</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(69, 162, 0);</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="10" column="1">
+       <widget class="QLabel" name="numeroClienti_3">
+        <property name="text">
+         <string>Statistica Servizi</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="0">
+       <widget class="QTextBrowser" name="ClassificaCampi">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QLabel" name="numeroClienti_2">
+        <property name="text">
+         <string>Statistica Campi</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="numeroServizi">
+        <property name="text">
+         <string>Numero servizi</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QTextBrowser" name="ClassificaAbbonamenti">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="1">
+       <widget class="QTextBrowser" name="ClassificaServizi">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="numeroPrenotazioni">
+        <property name="text">
+         <string>Numero prenotazioni</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="numeroDipendenti">
+        <property name="text">
+         <string>Numero dipendenti</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="2">
+       <widget class="QLabel" name="numeroIscrizioni">
+        <property name="text">
+         <string>Numero iscrizioni</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QLabel" name="numeroAbbonamenti">
+        <property name="text">
+         <string>Numero abbonamenti</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="numeroAssegnamenti">
+        <property name="text">
+         <string>Numero assegnamenti</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="numeroCampi">
+        <property name="text">
+         <string>Numero campi</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="numeroClienti">
+        <property name="text">
+         <string>Numero clienti</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="numeroAdmin">
+        <property name="text">
+         <string>Numero admin</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QLabel" name="numeroClienti_4">
+        <property name="text">
+         <string>Statistica Abbonamenti</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
